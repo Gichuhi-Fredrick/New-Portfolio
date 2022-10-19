@@ -2,8 +2,6 @@ import React from "react";
 import "./button.css";
 
 export default function Button({ url, value }) {
-  // const url = "https://amznclone.herokuapp.com/";
-
   const handleClick = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
