@@ -1,0 +1,123 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.89rem;
+  padding: 0;
+  margin: 0;
+  color: rgb(41, 218, 5);
+}
+
+.projectDetails {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.desc {
+  width: 100%;
+  font-size: 1rem;
+  color: white;
+  text-align: left;
+  padding: 0;
+  padding-top: 1rem;
+}
+
+.tech {
+  width: 100%;
+  display: flex;
+  margin-top: -1.5rem;
+  flex-direction: column;
+}
+
+h4 {
+  text-align: left;
+  font-size: 1.1rem;
+  color: rgb(41, 218, 5);
+}
+
+.stackContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 0;
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+
+.stack {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.right li {
+  width: 100%;
+  padding-right: 5em;
+}
+li {
+  display: flex;
+  gap: 10px;
+  text-align: left;
+}
+
+.icon {
+  color: rgb(41, 218, 5);
+  margin-top: 3px;
+  font-size: 1.1rem;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+  height: 10vh;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.btnContainer > button {
+  max-width: 8rem;
+}
+
+@media screen and (min-width: 700px) {
+  .projectDetails {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .imageContainer {
+    width: 100%;
+  }
+
+  .image {
+    border: 1px solid;
+    /* margin: 10% auto; */
+    max-width: 100%;
+  }
+
+  .desc {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .stackContainer {
+    max-width: 70%;
+  }
+}

@@ -1,0 +1,19 @@
+.btnContainer {
+  position: relative;
+  margin: 1rem 0 3rem 1rem;
+  width: 12em;
+  height: 2em;
+}
+
+button {
+  cursor: pointer;
+  background: rgb(30, 148, 7);
+  width: 100%;
+  border: none;
+  color: white;
+  height: 100%;
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 6px;
+  border-radius: 25px;
+}

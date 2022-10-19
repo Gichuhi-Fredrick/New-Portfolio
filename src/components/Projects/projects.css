@@ -1,0 +1,13 @@
+.projects {
+  width: 100%;
+  text-align: left;
+}
+
+.projects > h3 {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  color: rgb(41, 218, 5);
+  font-size: 1.4rem;
+  text-align: left;
+}

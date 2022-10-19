@@ -1,0 +1,51 @@
+.about {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  color: white;
+  font-size: 1.04rem;
+}
+
+.white {
+  color: white;
+}
+
+.name {
+  color: rgb(41, 218, 5);
+}
+
+.weapons {
+  color: rgb(41, 218, 5);
+  text-align: left;
+  margin: 0.5rem auto;
+  padding: 0;
+  width: 100%;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.weaponsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.weaponsContainer > ul > li {
+  color: white;
+}
+
+ul {
+  margin: 0 auto;
+  font-size: 1rem;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 0.95rem;
+}

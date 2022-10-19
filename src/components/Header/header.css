@@ -1,0 +1,25 @@
+.header {
+  position: relative;
+  width: 100%;
+  font-size: 0.9rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2rem auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: rgb(41, 218, 5);
+  text-align: left;
+}
+h2 {
+  gap: 0.5rem;
+  font-size: 1.4rem;
+  color: rgb(41, 218, 5);
+  text-align: left;
+}
+
+h1 > span,
+h2 > span {
+  color: white;
+}
