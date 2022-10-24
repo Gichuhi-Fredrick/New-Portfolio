@@ -4,6 +4,7 @@ import Project from "./Project/Project";
 
 import amzImage from "../../Images/amzn1.png";
 import landingImg from "../../Images/landing-page.png";
+import portfolioImg from "../../Images/Porfolio.png";
 
 const mainProjects = [
   {
@@ -24,6 +25,14 @@ const mainProjects = [
     description:
       "This is a solution to the Blogr landing page challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
     stackUsed: ["CSS", "HTML", "React JS"],
+  },
+  {
+    title: "Portfolio",
+    liveUrl: "https://gichuhi-portfolio.herokuapp.com/",
+    image: `${portfolioImg}`,
+    githubUrl: "https://github.com/Gichuhi-Fredrick/New-Portfolio",
+    description: "My personal website to show some of my projects.",
+    stackUsed: ["CSS", "React JS"],
   },
 ];
 
