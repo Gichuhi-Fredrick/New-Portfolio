@@ -6,12 +6,11 @@ export default function about() {
   return (
     <div className="about">
       <p className="white">
-        Hi, my name is <span className="name">Fredrick Gichuhi.</span>
+        Hi, my name is Fredrick Gichuhi. I build things for the web. I’m a
+        software engineer specializing in building (and occasionally designing)
+        exceptional digital experiences.
       </p>
-      <p>
-        I'm a self taught web developer, a fast learner and I work 100%
-        remotely.
-      </p>
+
       <p>
         My goal is to listen to your ideas and bring them into a reality, be it
         a simple website or a complex website I will work with you closely until
@@ -19,7 +18,7 @@ export default function about() {
       </p>
 
       <div className="listContainer">
-        <h4 className="weapons">My weapons of choice are: </h4>
+        <h4 className="weapons">Here are some of the technologies I use </h4>
         <div className="weaponsContainer">
           <div>
             <ul className="ul-1">

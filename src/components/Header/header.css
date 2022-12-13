@@ -7,10 +7,15 @@
   margin: 2rem auto;
 }
 
-h1 {
-  font-size: 1.5rem;
+p {
+  font-size: 1rem;
+}
+
+.name {
+  font-size: 2rem;
   color: rgb(41, 218, 5);
   text-align: left;
+  font-weight: bold;
 }
 h2 {
   gap: 0.5rem;
@@ -21,5 +26,5 @@ h2 {
 
 h1 > span,
 h2 > span {
-  color: white;
+  color: #e6f1ff;
 }

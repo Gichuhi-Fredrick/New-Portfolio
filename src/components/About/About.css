@@ -2,12 +2,17 @@
   width: 100%;
   margin: 0 auto;
   text-align: left;
-  color: white;
+
+  color: #e6f1ff;
   font-size: 1.04rem;
 }
 
+p {
+  font-family: var(--font-sans);
+}
+
 .white {
-  color: white;
+  color: #e6f1ff;
 }
 
 .name {
