@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Gichuhi-Fredrick/Movies-Store-Frontend/static/css/main.1fd5c8d3.css",
+    "main.js": "/Gichuhi-Fredrick/Movies-Store-Frontend/static/js/main.f9dd2c48.js",
+    "static/media/amzn1.png": "/Gichuhi-Fredrick/Movies-Store-Frontend/static/media/amzn1.d342a9b531ad7509d941.png",
+    "static/media/Porfolio.png": "/Gichuhi-Fredrick/Movies-Store-Frontend/static/media/Porfolio.2e74f0b71c96921433aa.png",
+    "static/media/landing-page.png": "/Gichuhi-Fredrick/Movies-Store-Frontend/static/media/landing-page.c26486ea62145631c1b8.png",
+    "index.html": "/Gichuhi-Fredrick/Movies-Store-Frontend/index.html",
+    "main.1fd5c8d3.css.map": "/Gichuhi-Fredrick/Movies-Store-Frontend/static/css/main.1fd5c8d3.css.map",
+    "main.f9dd2c48.js.map": "/Gichuhi-Fredrick/Movies-Store-Frontend/static/js/main.f9dd2c48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fd5c8d3.css",
+    "static/js/main.f9dd2c48.js"
+  ]
+}
