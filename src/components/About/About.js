@@ -6,15 +6,10 @@ export default function about() {
   return (
     <div className="about">
       <p className="white">
-        Hi, my name is Fredrick Gichuhi. I build things for the web. I’m a
-        software engineer specializing in building (and occasionally designing)
-        exceptional digital experiences.
-      </p>
-
-      <p>
-        My goal is to listen to your ideas and bring them into a reality, be it
-        a simple website or a complex website I will work with you closely until
-        your ideas manifest to your desired results.
+        I'm a softwared engineer who specializes in building websties and 'I’m
+        passionate about creating quality products that meet all of the
+        customer’s needs, and I love learning new techniques and technologies
+        that allow me to make that happen.
       </p>
 
       <div className="listContainer">

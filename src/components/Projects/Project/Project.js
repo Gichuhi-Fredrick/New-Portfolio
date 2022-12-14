@@ -10,6 +10,7 @@ export default function Projects({
   githubUrl,
   image,
   stackUsed,
+  id,
 }) {
   return (
     <div className="project">
@@ -31,9 +32,9 @@ export default function Projects({
             <div className="stackContainer">
               <div className="stack">
                 <ul>
-                  {stackUsed.map((item) => {
+                  {stackUsed.map((item, id) => {
                     return (
-                      <li>
+                      <li key={id}>
                         <HiOutlineCheckCircle className="icon" />
                         <span>{item}</span>
                       </li>
