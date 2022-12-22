@@ -5,8 +5,9 @@ export default function Header() {
   return (
     <div className="header">
       <div className="titles">
-        <p> Hi, my name is </p>
-        <span className="name">Fredrick Gichuhi</span>
+        <p className="intro"> Hi, my name is </p>
+        <h1 className="name">Fredrick Gichuhi.</h1>
+        <p className="desc">I'm a web developer.</p>
       </div>
     </div>
   );

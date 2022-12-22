@@ -6,14 +6,14 @@ export default function about() {
   return (
     <div className="about">
       <p className="white">
-        I'm a softwared engineer who specializes in building websties and 'I’m
+        I'm a software engineer who specializes in building websties and 'I'm
         passionate about creating quality products that meet all of the
-        customer’s needs, and I love learning new techniques and technologies
-        that allow me to make that happen.
+        customer's needs, and I love learning new technologies that allow me to
+        make that happen.
       </p>
 
       <div className="listContainer">
-        <h4 className="weapons">Here are some of the technologies I use </h4>
+        <h3 className="weapons">Technologies that I use are: </h3>
         <div className="weaponsContainer">
           <div>
             <ul className="ul-1">
